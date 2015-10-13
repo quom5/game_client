@@ -1,0 +1,47 @@
+// commands from player
+
+code       	meaning
+
+0 1			disconnect
+
+0 2			authenticate
+
+0 3			player wants to join realm
+
+0 4			player leaves realm
+
+0 5 		spawn
+
+0 6			unspawn
+
+0 7			new position
+
+
+
+// broadcast to all players
+
+code       	meaning
+
+
+1 3			player joined realm
+
+1 4			player left realm
+
+1 5			player is spawn
+
+1 6			player is paused
+
+1 7			player has new position
+
+// message to player
+
+code       	meaning
+
+
+0 1			disconnect
+
+0 2			player was authenticated
+
+0 3			player is able to enter realm
+
+
